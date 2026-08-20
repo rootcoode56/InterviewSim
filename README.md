@@ -974,8 +974,7 @@ The current prototype relies on external AI and conversational services and woul
 # 🎥 Demonstration
 
 A demonstration of InterviewSim is available here:
-
-[▶ Watch InterviewSim Demonstration]([https://www.youtube.com/watch?v=iUhniLyqRsw](https://youtu.be/bbIqlUCHXxI))
+([https://www.youtube.com/watch?v=iUhniLyqRsw](https://youtu.be/bbIqlUCHXxI))
 
 The demonstration presents the major features of the Alpha workflow and application.
 
