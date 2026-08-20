@@ -1,0 +1,67 @@
+# ============================================
+# InterviewSim - Unreal Engine generated files
+# ============================================
+
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+
+*.sln
+*.VC.db
+*.VC.opendb
+*.suo
+*.opensdf
+*.sdf
+
+# ============================================
+# Python generated files
+# ============================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================================
+# Private API / configuration files
+# ============================================
+
+ThirdParty/InterviewEvalServer/evaluation_config.json
+evaluation_config.json
+
+.env
+.env.*
+*.key
+*.pem
+
+# ============================================
+# InterviewSim private/generated user data
+# ============================================
+
+Saved/InterviewReports/
+InterviewReports/
+
+# ============================================
+# Evaluation server generated executable
+# Source Python files may still be committed
+# ============================================
+
+ThirdParty/InterviewEvalServer/InterviewEvalServer.exe
+
+# ============================================
+# Common Windows / IDE files
+# ============================================
+
+Thumbs.db
+Desktop.ini
+*.user
+*.log
+
+# ============================================
+# Packaged builds
+# ============================================
+
+PackagedBuilds/
+Windows/
