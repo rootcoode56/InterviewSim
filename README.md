@@ -697,9 +697,9 @@ The combined mode builds interview context using both candidate background and t
 ### Validation & Sanitization
 
 - Implemented document-type and input validation.
-- Rejected unsupported / invalid document combinations.
+- Rejected unsupported/invalid document combinations.
 - Rejected scanned or unusable PDF input where text extraction is not possible.
-- Sanitized personally identifiable / unnecessary information before prompt generation.
+- Sanitized personally identifiable/unnecessary information before prompt generation.
 - Produced focused interview context rather than passing raw document content directly to the Question Generation Engine.
 
 ### Upload / UI Integration Support
@@ -735,7 +735,7 @@ Evaluation fields include:
 
 ### Lightweight Runtime Evaluation
 
-- Implemented / contributed to the lightweight evaluation path used directly inside the Unreal interview runtime.
+- Implemented/contributed to the lightweight evaluation path used directly inside the Unreal interview runtime.
 - Designed the evaluation flow so that the candidate receives structured assessment data without blocking the core interview lifecycle.
 - Supported preservation of evaluation results for each submitted answer.
 
@@ -761,7 +761,7 @@ This allows exported reports to correctly represent whether the candidate typed 
 
 - Supported repeated-answer detection.
 - Tracked grammar-related issues.
-- Contributed to clarity / confidence / relevance-oriented feedback.
+- Contributed to clarity/confidence / relevance-oriented feedback.
 - Produced structured strengths and weaknesses for each interview.
 
 ### Final Performance Reporting
@@ -778,7 +778,7 @@ Developed the evaluation data used for final interview reporting, including:
 
 ### Report Export
 
-Implemented / owned the evaluation/report data used for:
+Implemented/owned the evaluation/report data used for:
 
 - JSON Report Export
 - TXT Transcript Export
@@ -947,36 +947,6 @@ The current prototype relies on external AI and conversational services and woul
 
 ---
 
-# 🔐 Security Notice
-
-Private credentials and user data must not be committed to this public repository.
-
-The following are intentionally excluded:
-
-```text
-Gemini API Keys
-OpenRouter API Keys
-Convai Credentials
-Authentication Tokens
-evaluation_config.json
-.env Files
-Private Candidate CVs
-Private Job Documents
-Generated Interview Reports
-Private Candidate Data
-Local Development Secrets
-```
-
-Developers who build InterviewSim from source must configure their own authorized service credentials.
-
-> Never commit API keys, authentication credentials, or private candidate data to GitHub.
-
-The Alpha version was designed for controlled academic demonstration and testing.
-
-Production deployment would require stronger credential management, encryption, authentication, privacy controls, secure backend infrastructure, and candidate-data protection.
-
----
-
 # 📷 Screenshots
 
 ## Splash Screen
@@ -1007,7 +977,7 @@ A demonstration of InterviewSim is available here:
 
 [▶ Watch InterviewSim Demonstration]([https://www.youtube.com/watch?v=iUhniLyqRsw](https://youtu.be/bbIqlUCHXxI))
 
-The demonstration presents the major Alpha workflow and application features.
+The demonstration presents the major features of the Alpha workflow and application.
 
 ---
 
