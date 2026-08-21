@@ -1,0 +1,9 @@
+Candidate: Alex Rahman
+
+Experience:
+- Developed an Unreal Engine inventory system using C++ and Blueprints.
+- Implemented multiplayer replication for item pickup and equipment.
+- Built an AI enemy perception system using Behavior Trees and EQS.
+- Optimized gameplay performance using Unreal Insights.
+
+Target role: Unreal Engine Gameplay Programmer.

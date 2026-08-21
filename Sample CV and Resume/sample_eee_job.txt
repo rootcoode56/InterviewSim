@@ -1,0 +1,22 @@
+Job Title: Junior Electrical Engineer
+
+Required Qualifications:
+Bachelor's degree in Electrical and Electronic Engineering.
+
+Required Skills:
+Circuit analysis
+Power systems
+PLC programming
+MATLAB
+Microcontrollers
+Control systems
+
+Responsibilities:
+Design and analyze electrical circuits.
+Assist with power-system testing and maintenance.
+Develop PLC-based industrial automation solutions.
+Use MATLAB for signal and control-system analysis.
+Troubleshoot electrical equipment and document test results.
+
+Preferred Experience:
+Knowledge of transformers, industrial safety, and electrical maintenance.

@@ -1,0 +1,18 @@
+{
+  "name": "Rahim Ahmed",
+  "role": "Junior Unreal Engine Gameplay Programmer",
+  "skills": [
+    "C++",
+    "Object-Oriented Programming",
+    "Unreal Engine",
+    "Blueprint",
+    "Gameplay Systems",
+    "Debugging"
+  ],
+  "experience": [
+    "Built small gameplay prototypes",
+    "Worked on character movement",
+    "Has basic AI behavior tree knowledge"
+  ],
+  "education": "Computer Science student"
+}

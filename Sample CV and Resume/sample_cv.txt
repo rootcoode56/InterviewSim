@@ -1,0 +1,18 @@
+Name: Rahim Ahmed
+Role: Junior Unreal Engine Gameplay Programmer
+
+Skills:
+- C++
+- Object-Oriented Programming
+- Unreal Engine
+- Blueprint
+- Gameplay Systems
+- Debugging
+
+Experience:
+- Built small gameplay prototypes
+- Worked on character movement
+- Basic AI behavior tree knowledge
+
+Education:
+- Computer Science student
