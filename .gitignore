@@ -70,3 +70,8 @@ PackagedBuilds/
 # MAC OS generated files
 # ============================================
 .DS_Store
+
+# ============================================
+# External Poppler runtime
+# ============================================
+/ThirdParty/Poppler/bin/
