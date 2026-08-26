@@ -1032,66 +1032,6 @@ Private credentials are **not** included in the public repository.
 
 ---
 
-# 🔮 Future Work
-
-Feedback from development, testing, faculty review, and the Innovation Challenge identified several possible future directions.
-
-## Security & Privacy
-
-- Secure API credential management
-- Candidate-data encryption
-- Secure report storage
-- Authentication
-- User account management
-- Privacy controls
-- Data-retention policies
-- Secure cloud infrastructure
-
-## Product & Business Development
-
-- Subscription-based service model
-- Candidate accounts
-- Recruiter accounts
-- Recruiter dashboard
-- Premium interview plans
-- Cloud-hosted service infrastructure
-
-## Interview Intelligence
-
-- Dynamic candidate-profile updating
-- More advanced adaptive questioning
-- More situational interview scenarios
-- Broader behavioral interview intelligence
-- Additional professional domains
-- Role-specific interview templates
-- More realistic and varied interview conditions
-
-## Speech & Interaction
-
-- Improved speech-recognition robustness
-- Better handling of accents
-- Noisy-environment support
-- Multi-language interviews
-- Improved conversational turn-taking
-
-## Analytics
-
-- Interview history
-- Candidate progress tracking
-- Long-term performance analytics
-- Advanced competency analytics
-- Recruiter-facing evaluation summaries
-
-## Deployment
-
-- Secure cloud deployment
-- Production backend architecture
-- Enterprise integration
-- Scalable user management
-- Production-ready monitoring and reliability
-
----
-
 # 🙏 Acknowledgements
 
 Special thanks to:
@@ -1099,12 +1039,11 @@ Special thanks to:
 - **Dr. Mohsin Sajjad** for his guidance and support throughout the Capstone project.
 - **North South University**
 - **Department of Electrical and Computer Engineering, North South University**
-- **NSU ACM Student Chapter**
 - **Epic Games** for Unreal Engine and MetaHuman.
 - **Convai** for conversational AI technology.
 - **Google** for the Gemini API.
 - **OpenRouter** for multi-model AI access.
-- Faculty members, reviewers, judges, classmates, and everyone who provided feedback during development and presentation.
+- Faculty members, reviewers, judges.
 
 ---
 
