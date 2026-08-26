@@ -582,6 +582,83 @@ These were **integration/reliability modifications to Nazia's module**, not a tr
 
 ---
 
+## 📊 Nowren Mahjabin Khan
+
+### Evaluation & Feedback Intelligence Lead
+
+Primary responsibility: **evaluating candidate answers and transforming interview responses into structured feedback and performance reports.**
+
+### Candidate Answer Evaluation
+
+Developed the evaluation logic used to assess candidate responses.
+
+Evaluation fields include:
+
+- Score
+- Correctness
+- Clarity
+- Relevance
+- Confidence
+- Grammar issues
+- Repetition
+- Feedback
+- Strengths
+- Weaknesses
+
+### Lightweight Runtime Evaluation
+
+- Implemented/contributed to the lightweight evaluation path used directly inside the Unreal interview runtime.
+- Designed the evaluation flow so that the candidate receives structured assessment data without blocking the core interview lifecycle.
+- Supported preservation of evaluation results for each submitted answer.
+
+### Detailed Evaluation / Feedback Intelligence
+
+- Developed the detailed evaluation and feedback workflow associated with the Evaluation module.
+- Supported AI-enhanced analysis for richer feedback when the detailed evaluation service is available.
+- Supported fallback behavior so lightweight evaluation remains available when external detailed evaluation is unavailable.
+
+### Answer-Type Awareness
+
+- Supported distinction between candidate answer input methods.
+- Final integrated runtime stores answer type such as:
+
+```text
+written_text
+speech_stt
+```
+
+This allows exported reports to correctly represent whether the candidate typed or spoke an answer.
+
+### Repetition & Communication Analysis
+
+- Supported repeated-answer detection.
+- Tracked grammar-related issues.
+- Contributed to clarity/confidence / relevance-oriented feedback.
+- Produced structured strengths and weaknesses for each interview.
+
+### Final Performance Reporting
+
+Developed the evaluation data used for final interview reporting, including:
+
+- Overall performance score
+- Strengths
+- Weaknesses
+- Repetition status
+- Grammar information
+- Per-answer evaluation
+- Final interview summary information
+
+### Report Export
+
+Implemented/owned the evaluation/report data used for:
+
+- JSON Report Export
+- TXT Transcript Export
+
+Reports preserve interview-answer records, evaluation information, stages, answer types, and final performance data.
+
+---
+
 ## 🤖 Nazia Tasmin
 
 ### Multi-AI Question Generation & Selection Engine Lead
@@ -707,83 +784,6 @@ The combined mode builds interview context using both candidate background and t
 - Developed the core document-upload workflow used by the Real Interview setup.
 - Supported file-selection and submission behavior.
 - Connected successful document processing to the final focused prompt used by the integrated system.
-
----
-
-## 📊 Nowren Mahjabin Khan
-
-### Evaluation & Feedback Intelligence Lead
-
-Primary responsibility: **evaluating candidate answers and transforming interview responses into structured feedback and performance reports.**
-
-### Candidate Answer Evaluation
-
-Developed the evaluation logic used to assess candidate responses.
-
-Evaluation fields include:
-
-- Score
-- Correctness
-- Clarity
-- Relevance
-- Confidence
-- Grammar issues
-- Repetition
-- Feedback
-- Strengths
-- Weaknesses
-
-### Lightweight Runtime Evaluation
-
-- Implemented/contributed to the lightweight evaluation path used directly inside the Unreal interview runtime.
-- Designed the evaluation flow so that the candidate receives structured assessment data without blocking the core interview lifecycle.
-- Supported preservation of evaluation results for each submitted answer.
-
-### Detailed Evaluation / Feedback Intelligence
-
-- Developed the detailed evaluation and feedback workflow associated with the Evaluation module.
-- Supported AI-enhanced analysis for richer feedback when the detailed evaluation service is available.
-- Supported fallback behavior so lightweight evaluation remains available when external detailed evaluation is unavailable.
-
-### Answer-Type Awareness
-
-- Supported distinction between candidate answer input methods.
-- Final integrated runtime stores answer type such as:
-
-```text
-written_text
-speech_stt
-```
-
-This allows exported reports to correctly represent whether the candidate typed or spoke an answer.
-
-### Repetition & Communication Analysis
-
-- Supported repeated-answer detection.
-- Tracked grammar-related issues.
-- Contributed to clarity/confidence / relevance-oriented feedback.
-- Produced structured strengths and weaknesses for each interview.
-
-### Final Performance Reporting
-
-Developed the evaluation data used for final interview reporting, including:
-
-- Overall performance score
-- Strengths
-- Weaknesses
-- Repetition status
-- Grammar information
-- Per-answer evaluation
-- Final interview summary information
-
-### Report Export
-
-Implemented/owned the evaluation/report data used for:
-
-- JSON Report Export
-- TXT Transcript Export
-
-Reports preserve interview-answer records, evaluation information, stages, answer types, and final performance data.
 
 ---
 
