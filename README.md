@@ -97,7 +97,7 @@ The goal is to give candidates a more realistic and interactive environment for 
 - Automated answer evaluation
 - Actionable performance feedback
 
-Rather than presenting only static question lists, InterviewSim attempts to simulate a complete interview lifecycle from introduction to closing and final evaluation.
+Instead of presenting only static question lists, InterviewSim simulates a complete interview lifecycle, from introduction to closing and final evaluation.
 
 ---
 
